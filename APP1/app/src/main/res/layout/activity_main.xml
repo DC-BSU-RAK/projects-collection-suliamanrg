@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@drawable/bg_main_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/bg_form_card"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mood Recipe Calculator"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#4B3FD1"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose your mood"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#1E1E2D"
+                android:layout_marginBottom="14dp" />
+
+            <RadioGroup
+                android:id="@+id/moodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/happy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Happy"
+                    android:textSize="18sp"
+                    android:textColor="#2B2B3C"
+                    android:buttonTint="#6C63FF"
+                    android:checked="true"
+                    android:layout_marginBottom="10dp" />
+
+                <RadioButton
+                    android:id="@+id/stressed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stressed"
+                    android:textSize="18sp"
+                    android:textColor="#2B2B3C"
+                    android:buttonTint="#6C63FF"
+                    android:layout_marginBottom="10dp" />
+
+                <RadioButton
+                    android:id="@+id/tired"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tired"
+                    android:textSize="18sp"
+                    android:textColor="#2B2B3C"
+                    android:buttonTint="#6C63FF" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/calculateButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="28dp"
+                android:text="Calculate My Plan"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_button" />
+
+            <Button
+                android:id="@+id/btn_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="How to Use"
+                android:backgroundTint="#6750A4"
+                app:icon="@android:drawable/ic_menu_info_details" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
