@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Story Seed Studio</string>
+    <string name="splash_icon_desc">App Icon</string>
+    <string name="story_seed_title">Story Seed Studio</string>
+    <string name="story_seed_tagline">Plant an idea. Grow a story.</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="go_to_sign_up">Don\'t have an account? Sign Up</string>
+</resources>

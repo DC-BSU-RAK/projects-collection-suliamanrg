@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121224"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/etSignUpName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Full Name"
+        android:textColorHint="#8888A0"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_input"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etSignUpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email Address"
+        android:textColorHint="#8888A0"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_input"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/etSignUpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password (min 6 characters)"
+        android:textColorHint="#8888A0"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_input"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="24dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6C5CE7"/>
+
+    <TextView
+        android:id="@+id/tvGoToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log In"
+        android:textColor="#B0B0D0"
+        android:layout_marginTop="24dp"
+        android:textSize="14sp"/>
+</LinearLayout>

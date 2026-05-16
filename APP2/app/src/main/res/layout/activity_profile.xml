@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#121224"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/ivProfileAvatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_profile"
+        android:background="@drawable/bg_card"
+        android:padding="20dp"
+        android:contentDescription="User Avatar" />
+
+    <TextView
+        android:id="@+id/tvProfileTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="Loading Name..."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="Loading Email..."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Back to Dashboard"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6C5CE7"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4757"/>
+</LinearLayout>

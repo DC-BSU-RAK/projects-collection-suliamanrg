@@ -1,0 +1,10 @@
+<resources>
+    <color name="bg_dark">#0F1021</color>
+    <color name="surface_dark">#1B1D36</color>
+    <color name="primary_purple">#8B5CF6</color>
+    <color name="secondary_lavender">#C4B5FD</color>
+    <color name="accent_gold">#F2C66D</color>
+    <color name="text_main">#F8F7FF</color>
+    <color name="text_soft">#B7B9D3</color>
+    <color name="border_dark">#2D315A</color>
+</resources>
